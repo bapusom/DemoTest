@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Projet with Test Suite]">
+  <test thread-count="5" name="Parameterization Test on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcases.ParameterizationTest">
+        <methods>
+          <include name="exitTest"/>
+          <include name="beforetest"/>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- testcases.ParameterizationTest -->
+    </classes>
+  </test> <!-- Parameterization Test on Chrome(failed) -->
+  <test thread-count="5" name="Parameterization Test on IE(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="testcases.ParameterizationTest">
+        <methods>
+          <include name="exitTest"/>
+          <include name="beforetest"/>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- testcases.ParameterizationTest -->
+    </classes>
+  </test> <!-- Parameterization Test on IE(failed) -->
+</suite> <!-- Failed suite [Projet with Test Suite] -->

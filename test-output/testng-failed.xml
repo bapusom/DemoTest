@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <test thread-count="5" name="Parameterization Test on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testcases.ParameterizationTest">
+        <methods>
+          <include name="exitTest"/>
+          <include name="startTest"/>
+          <include name="demoTest"/>
+        </methods>
+      </class> <!-- testcases.ParameterizationTest -->
+    </classes>
+  </test> <!-- Parameterization Test on Firefox(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

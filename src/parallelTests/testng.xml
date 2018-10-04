@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Training Suite" verbose="1"  parallel="tests">
+  <test name="Test A" >
+    <classes>
+       <class name="parallelTests.TestA" />
+    </classes>
+  </test>
+ 
+  <test name="Test B" >
+    <classes>
+       <class name="parallelTests.TestB" />
+    </classes>
+  </test>
+  
+    <test name="Test C" >
+    <classes>
+       <class name="parallelTests.TestC" />
+    </classes>
+  </test>
+</suite>
